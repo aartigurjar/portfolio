@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Aarti's Portfolio Website</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/custom.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#home" class="smoothScroll"><img src="img/logo.jpg" alt="logo" id="logo" class="img-responsive"></a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#projects" class="smoothScroll">Projects</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home" class="cl_white text-center">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-offset-1 col-md-10 col-sm-12">
+              <h1>Welcome</h1>
+              <p class="lead">My name is Aarti Gurjar. I am a Front End Web Developer.</p>
+              <a href="#about" class="btn btn-success btn-lg">Learn more</a>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-sm-8">
+            <div class="about-thumb">
+                <h1>Background</h1>
+                <p>I learnt the concepts of web development during my 6-months industrial training when I did a course in PHP and currently I am pursuing the Udacity Nanodegree for Front End Web Development program. This website contains information about me, my portfolio, and ways to stay in touch or contact me.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 about-img">
+            <img src="img/aarti.jpg" class="img-responsive img-circle" alt="Profile-image">
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-12">
+          <div class="section-title text-center">
+            <h1>Projects</h1>
+            <p>Here are a few of my recent projects.</p>
+          </div>
+        </div>
+  
+        <ul class="grid cs-style-4">
+          <li class="col-md-6 col-sm-6">
+            <figure>
+              <img src="img/pixel_art_maker.jpg" alt="image 1" class="img-responsive">
+              <figcaption>
+                <h1>Pixel Art Maker</h1>
+                <small>Users can draw own art on customizable canvas.</small>
+                <a href="https://codepen.io/aartigj/full/zjBqzX/">View Project</a>
+              </figcaption>
+            </figure>
+          </li>
+  
+          <li class="col-md-6 col-sm-6">
+            <figure>
+              <img src="img/animal_trading_card.jpg" alt="image 2" class="img-responsive">
+              <figcaption>
+                <h1>Animal Trading Card</h1>
+                <small>It provides general information and image of an animal.</small>
+                <a href="https://codepen.io/aartigj/full/oqbMoz/">View Project</a>
+              </figcaption>
+            </figure>
+          </li>
+  
+          <li class="col-md-6 col-sm-6">
+            <figure>
+              <img src="img/blog1.jpg" alt="image 3" class="img-responsive">
+              <figcaption>
+                <h1>Blog Article</h1>
+                <small>An article on hot web developer jobs.</small>
+                <a href="https://codepen.io/aartigj/full/ZraMVV/">View Project</a>
+              </figcaption>
+            </figure>
+          </li>
+  
+          <li class="col-md-6 col-sm-6">
+            <figure>
+              <img src="img/blog2.jpg" alt="image 4" class="img-responsive">
+              <figcaption>
+                <h1>Blog Article</h1>
+                <small>An article on AI Odyssey.</small>
+                <a href="https://codepen.io/aartigj/full/wyPRvW">View Project</a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>          
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-md-offset-1 col-md-10 col-sm-12">
+      
+            <div class="col-lg-offset-1 col-lg-10 section-title">
+              <h1>Send a message</h1>
+              <p>If you are interested in contacting me, feel free to send me a message using the below form.</p>
+            </div>
+      
+            <form action="#" method="post">
+              <div class="col-md-6 col-sm-6">
+                <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="col-md-12 col-sm-12">
+                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+              </div>
+              <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                <input type="submit" class="form-control" value="SEND MESSAGE">
+              </div>
+            </form>
+      
+          </div>
+      
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+        
+      <div class="row">
+    
+        <div class="col-md-12 col-sm-12">
+                
+          <ul class="social-icon"> 
+            <li><a href="https://www.facebook.com/aarti.gurjar.7" class="fa fa-facebook"></a></li>
+            <li><a href="https://twitter.com/AartiGurjar4" class="fa fa-twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/aarti-gurjar-6624a787/" class="fa fa-linkedin"></a></li>
+            <li><a href="https://github.com/aartigurjar" class="fa fa-github"></a></li>
+            <li><a href="https://plus.google.com/u/0/106017823007803955012" class="fa fa-google-plus"></a></li>
+          </ul>
+    
+          <p>Copyright &copy; 2018 Aarti Gurjar | Front End Web Developer</p>
+                    
+        </div>
+          
+      </div>
+            
+    </div>
+  </footer>
+
+</body>
+</html>
